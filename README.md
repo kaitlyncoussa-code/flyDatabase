@@ -1,5 +1,4 @@
 # flyDatabase
-
 # Parkinson's Gene Expression and FlyWire Neuron Database
 
 A database linking Parkinson's disease genes to their fruit fly orthologs, the fly cell types where
@@ -82,7 +81,10 @@ were kept.
 ## Input files
 
 - `expressionRawData/`: Expression Atlas downloads, one TSV per fly gene
-- `Supplemental_file1_neuron_annotations (2).tsv`: FlyWire neuron annotations
+- `Supplemental_file1_neuron_annotations (2).tsv`: FlyWire neuron annotations (about 30 MB, not stored in this repo).
+  Download `Supplemental_file1_neuron_annotations.tsv` from the flyconnectome/flywire_annotations GitHub repo (link below), save it in the
+  project root, and rename it to `Supplemental_file1_neuron_annotations (2).tsv`, which is the name the scripts
+  look for.
 - `clusterFBbt.csv`: cell type clusters with their FBbt IDs, looked up by hand on Virtual Fly Brain
 - `classificationNeuronData/connections_princeton.csv`: FlyWire connections table (about 270 MB,
   over GitHub's 100 MB limit, so it is not stored in this repo). Download it from the FlyWire Codex link
@@ -110,7 +112,7 @@ project root.
 - EMBL-EBI Expression Atlas (readable version of that data): https://www.ebi.ac.uk/gxa/home
 - Virtual Fly Brain: https://v2.virtualflybrain.org
 - FlyWire Codex downloads: https://codex.flywire.ai/api/download?dataset=fafb
-- FlyWire neuron annotations: https://github.com/flyconnectome/flywire_annotations/blob/main/supplemental_files/Supplemental_file1_neuron_annotations.tsv
+- FlyWire neuron annotations (flyconnectome/flywire_annotations on GitHub): https://github.com/flyconnectome/flywire_annotations/blob/main/supplemental_files/Supplemental_file1_neuron_annotations.tsv
 - Ortholog lookup (DRSC): https://www.flyrnai.org/cgi-bin/DRSC_orthologs.pl
 - Human gene records: UniProt (IDs above) and NCBI Gene
 
