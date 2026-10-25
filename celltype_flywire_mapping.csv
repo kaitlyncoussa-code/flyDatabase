@@ -1,0 +1,88 @@
+cell_type,fbbt_id,kind,flywire_labels,n_labels,n_neurons,method,confidence,is_parent_class,fbbt_in_flywire_n,fbbt_covered_frac,notes
+Drosulfakinin neuron,FBbt_00048999,neuron,DSKMP3,1,4,label_family,low,False,0,,name suggests Dsk neurons; verify
+GABAergic neuron,FBbt_00058207,nt_class,1858 labels,1858,19171,predicted_nt,class-level,True,0,,"FlyWire top_nt is a computational prediction, not a cell type; kept out of the roots file (filter by top_nt)"
+I-LNv neuron,FBbt_00003763,neuron,l-LNv,1,8,label_fbbt,high,False,8,1.0,FlyWire writes it with a lowercase l; supported by FBbt id
+Pdf neuron,FBbt_00100171,neuron,l-LNv;s-LNv_a;s-LNv_b,3,18,label_family,medium,True,0,,PDF-expressing clock neurons
+T neuron,FBbt_00003726,neuron,T1;T2;T2a;T3;T4a;T4b;T4c;T4d;T5a;T5b;T5c;T5d,12,18556,label_family,medium,True,0,,generic parent: T1-T5 families
+T neuron T4,FBbt_00003731,neuron,T4a;T4b;T4c;T4d,4,6241,label_family,medium,True,0,,FlyWire splits T4 into T4a-d; pooled
+T neuron T5,FBbt_00003736,neuron,T5a;T5b;T5c;T5d,4,6005,label_family,medium,True,0,,FlyWire splits T5 into T5a-d; pooled
+adult CCAP neuron,FBbt_00111316,generic,,0,0,no_match,none,False,0,,no CCAP-labelled neurons in the FlyWire annotation table
+adult NPF neuron,,neuron,NPFL1-I,1,2,label_family,low,False,0,,only a small lateral NPF subset is labelled in FlyWire. Not in your cluster list
+adult extrinsic protocerebral bridge neuron,FBbt_00003663,generic,,0,0,manual,none,False,0,,generic class; would be several FlyWire central complex columnar types - choose manually
+adult lamina epithelial glial cell,FBbt_00100513,non_neuron,,0,0,not_in_dataset,none,False,0,,glia are not segmented as neurons in this table
+adult lamina marginal glial cell,FBbt_00005722,non_neuron,,0,0,not_in_dataset,none,False,0,,glia are not segmented as neurons in this table
+alpha/beta Kenyon cell,FBbt_00100248,neuron,KCab;KCab-p,2,1771,label_family,medium,True,1643,1.0,"pooled FlyWire alpha/beta types (KCab, KCab-p, ...)"
+alpha/beta core Kenyon cell,,neuron,KCab,1,1643,label,low,False,0,,FlyWire does not separate surface/core/middle alpha/beta; KCab is the pooled alpha/beta type. Not in your cluster list
+alpha/beta posterior Kenyon cell,FBbt_00110931,neuron,KCab-p,1,128,label,high,False,128,1.0,
+alpha/beta surface Kenyon cell,FBbt_00110930,neuron,KCab,1,1643,label,low,False,0,,FlyWire does not separate surface/core/middle alpha/beta; KCab is the pooled alpha/beta type
+alpha’/beta’ anterior-posterior Kenyon cell,FBbt_00100250z,neuron,KCapbp-ap1;KCapbp-ap2,2,578,label_family,medium,False,0,,assumes FlyWire 'ap' = anterior-posterior; verify
+alpha’/beta’ middle Kenyon cell,FBbt_00100253,neuron,KCapbp-m,1,338,label,medium,False,0,,assumes FlyWire KCapbp-m = alpha'/beta' middle; verify
+centrifugal neuron C2,FBbt_00003743,neuron,C2,1,1416,label,high,False,0,,
+centrifugal neuron C3,FBbt_00003744,neuron,C3,1,1530,label,high,False,0,,
+centrigufal neuron,FBbt_00049661,neuron,110 labels,110,3470,label_family,low,True,0,,"generic parent: C2, C3 plus FlyWire visual_centrifugal super class"
+cholinergic neuron,FBbt_00058205,nt_class,5018 labels,5018,86193,predicted_nt,class-level,True,0,,"FlyWire top_nt is a computational prediction, not a cell type; kept out of the roots file (filter by top_nt)"
+columnar neuron T1,FBbt_00003727,neuron,T1,1,1397,label,high,False,0,,
+corazonin neuron,FBbt_00051053,neuron,"CRZ;CRZ01,CRZ02",2,10,label_family,medium,False,0,,FlyWire CRZ types
+distal medullary amacrine neuron Dm1,FBbt_00003768,neuron,Dm1,1,73,label,high,False,0,,
+distal medullary amacrine neuron Dm10,FBbt_00110135,neuron,Dm10,1,503,label,high,False,0,,
+distal medullary amacrine neuron Dm11,FBbt_00111272,neuron,Dm11,1,131,label,high,False,0,,
+distal medullary amacrine neuron Dm12,FBbt_00111273,neuron,Dm12,1,216,label,high,False,0,,
+distal medullary amacrine neuron Dm3,FBbt_00003770,neuron,Dm3p;Dm3q;Dm3v,3,2548,label_family,medium,True,0,,FlyWire splits Dm3 into Dm3p/Dm3q/Dm3v; pooled here
+distal medullary amacrine neuron Dm4,FBbt_00003771,neuron,Dm4,1,77,label,high,False,0,,
+distal medullary amacrine neuron Dm8,FBbt_00013774,neuron,Dm8,1,1,label,low,False,0,,"only 1 FlyWire neurons carry this label, likely incomplete"
+distal medullary amacrine neuron Dm9,FBbt_00111271,neuron,Dm9,1,204,label,high,False,0,,
+dopaminergic PAM neuron 1,FBbt_00111015,neuron,PAM01,1,41,label_numbering,low,False,0,,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; no FBbt support
+dopaminergic PAM neuron 2,FBbt_00111016,neuron,PAM02,1,16,label_fbbt,medium,False,12,1.0,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; supported by FBbt id
+dopaminergic PAM neuron 3,FBbt_00100231,neuron,PAM03,1,10,label_fbbt,medium,False,10,1.0,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; supported by FBbt id
+dopaminergic PAM neuron 4,FBbt_00110993,neuron,PAM04,1,32,label_numbering,low,False,0,,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; no FBbt support
+dopaminergic PAM neuron 5,FBbt_00111017,neuron,PAM05,1,21,label_fbbt,medium,False,19,1.0,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; supported by FBbt id
+dopaminergic PAM neuron 6,FBbt_00111018,neuron,PAM06,1,30,label_numbering,low,False,3,0.0,"FlyWire has more PAM types than this table; numbering may not correspond one-to-one; FlyWire's fbbt_id for this term points to PAM02, so the numbering is inconsistent; FBbt id FBbt_00111018 is carried by 3 FlyWire neurons, only 0% of them in this selection (shared id)"
+dopaminergic PAM neuron 7,FBbt_00111019,neuron,PAM07,1,18,label_fbbt,medium,False,15,1.0,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; supported by FBbt id
+dopaminergic PAM neuron 8,FBbt_00111020,neuron,PAM08,1,45,label_fbbt,medium,False,3,1.0,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; supported by FBbt id
+dopaminergic PAM neuron 9,FBbt_00111021,neuron,PAM09,1,9,label_fbbt,medium,False,10,0.8,FlyWire has more PAM types than this table; numbering may not correspond one-to-one; FBbt id also covers a few PAM10 neurons
+gamma dorsal Kenyon cell,FBbt_00110932,neuron,KCg-d,1,295,label,high,False,295,1.0,
+glutamatergic neuron,FBbt_00058208,nt_class,2423 labels,2423,24875,predicted_nt,class-level,True,0,,"FlyWire top_nt is a computational prediction, not a cell type; kept out of the roots file (filter by top_nt)"
+lamina intrinsic neuron,FBbt_00003746,neuron,Lai,1,311,label,high,False,0,,
+lamina monopolar neuron,FBbt_00003718,neuron,L1;L2;L3;L4;L5,5,7687,label_family,medium,True,0,,generic parent of L1-L5
+lamina monopolar neuron L1,FBbt_00003719,neuron,L1,1,1591,label,high,False,1577,0.992,
+lamina monopolar neuron L2,FBbt_00003720,neuron,L2,1,1699,label,high,False,2933,0.526,"FBbt id FBbt_00003720 is carried by 2933 FlyWire neurons, only 53% of them in this selection (shared id)"
+lamina monopolar neuron L3,FBbt_00003721,neuron,L3,1,1442,label,high,False,0,,
+lamina monopolar neuron L4,FBbt_00003722,neuron,L4,1,1378,label,high,False,1395,0.98,
+lamina monopolar neuron L5,FBbt_00003725,neuron,L5,1,1577,label,high,False,1605,0.968,
+lamina wide-field 1 neuron,FBbt_00003741,neuron,Lawf1,1,347,label,high,False,16,0.938,
+lamina wide-field 2 neuron,FBbt_00110065,neuron,Lawf2,1,321,label,high,False,4,1.0,
+lobula columnar neuron LC10A,FBbt_00110933,neuron,LC10a,1,234,label,low,False,0,,capital-A term; FlyWire has LC10a-f. Probably overlaps the LC10a row
+lobula columnar neuron LC10a,FBbt_00110933,neuron,LC10a,1,234,label,low,False,0,,capital-A term; FlyWire has LC10a-f. Probably overlaps the LC10a row
+lobula columnar neuron LC10b,FBbt_00111745,neuron,LC10b,1,84,label,high,False,83,1.0,
+lobula columnar neuron LC10d,FBbt_00111748,neuron,LC10d,1,188,label,high,False,188,1.0,
+lobula columnar neuron LC16,FBbt_00111751,neuron,LC16,1,151,label,high,False,151,1.0,
+lobula columnar neuron LC4,FBbt_00003874,neuron,LC4,1,104,label,high,False,104,1.0,
+lobula columnar neuron LC6,FBbt_00003876,neuron,LC6,1,125,label,high,False,125,1.0,
+lobula plate columnar neuron LPC1,FBbt_00111767,neuron,LPC1,1,164,label,high,False,163,1.0,
+lobula plate intrinsic neuron LPi3-4,FBbt_00111289,neuron,LPi03;LPi04,2,100,label_numbering,low,False,0,,FlyWire zero-pads LPi numbers; assumed LPi3-4 = LPi03 + LPi04
+lobula plate tangential neuron,FBbt_00003907,neuron,H1;H2;HSE;HSN;HSS;VS1;VS2;VS3;VS4;VS5;VS6;VS7;VS8,13,26,label_family,low,True,0,,generic class; only HS/VS/H1/H2/CH labels that exist are included
+lobula plate-lobula columnar neuron LPLC1,FBbt_00111762,neuron,LPLC1,1,140,label,high,False,140,1.0,
+lobula plate-lobula columnar neuron LPLC2,FBbt_00111763,neuron,LPLC2,1,210,label,high,False,210,1.0,
+lobula-lobula plate columnar neuron LLPC1,FBbt_00058227,neuron,LLPC1,1,219,label,high,False,0,,
+medullary intrinsic neuron Mi1,FBbt_00003776,neuron,Mi1,1,1584,label,high,False,0,,
+medullary intrinsic neuron Mi15,FBbt_00111285,neuron,Mi15,1,984,label,high,False,0,,
+medullary intrinsic neuron Mi4,FBbt_00003779,neuron,Mi4,1,1532,label,high,False,0,,
+medullary intrinsic neuron Mi9,FBbt_00003784,neuron,Mi9,1,1554,label,high,False,0,,
+muscle cell,FBbt_00058230,non_neuron,,0,0,not_in_dataset,none,False,0,,no muscle in the FlyWire brain dataset
+mushroom body output neuron,FBbt_00047955,neuron,35 labels,35,96,cell_class,medium,True,0,,pooled: one expression row for all ~96 FlyWire MBONs
+outer photoreceptor cell,FBbt_00006007,neuron,R1-6,1,8452,label,high,False,0,,FlyWire's R1-6 type is the outer photoreceptor class
+photoreceptor cell R7,FBbt_00004225,neuron,R7,1,1342,label,high,False,0,,
+photoreceptor cell R8 of pale ommatidium,FBbt_02000004,neuron,R8,1,1324,label,medium,False,0,,FlyWire does not split R8 into pale/yellow; same neurons as the yellow row
+photoreceptor cell R8 of yellow ommatidium,FBbt_02000003,neuron,R8,1,1324,label,medium,False,0,,FlyWire does not split R8 into pale/yellow; same neurons as the pale row
+proximal medullary amacrine neuron Pm3,FBbt_00110066,neuron,Pm03,1,191,label_numbering,low,False,0,,FlyWire zero-pads Pm numbers; assumed Pm3 = Pm03
+proximal medullary amacrine neuron Pm4,FBbt_00111282,neuron,Pm04,1,82,label_numbering,low,False,0,,FlyWire zero-pads Pm numbers; assumed Pm4 = Pm04
+pseudocartridge glial cell,FBbt_00100520,non_neuron,,0,0,not_in_dataset,none,False,0,,glia are not segmented as neurons in this table
+transmedullary neuron TM3a,FBbt_00003791,neuron,Tm3,1,1756,label,medium,False,0,,FlyWire does not subdivide Tm3
+transmedullary neuron Tm1,FBbt_00003789,neuron,Tm1,1,1555,label,high,False,0,,
+transmedullary neuron Tm2,FBbt_00003790,neuron,Tm2,1,1551,label,high,False,0,,
+transmedullary neuron Tm20,FBbt_00003808,neuron,Tm20,1,1496,label,high,False,0,,
+transmedullary neuron Tm29,FBbt_00049916,neuron,,0,0,no_match,none,False,0,,no FlyWire label 'Tm29'
+transmedullary neuron Tm3Y,FBbt_00003830,neuron,TmY3,1,736,label,low,False,0,,assumed older name for TmY3
+transmedullary neuron Tm4,FBbt_00003792,neuron,Tm4,1,1491,label,high,False,0,,
+transmedullary neuron Tm9,FBbt_00003797,neuron,Tm9,1,1522,label,high,False,0,,
+transmedullary neuron TmY5a,FBbt_00003823,neuron,TmY5a,1,1175,label,high,False,0,,
